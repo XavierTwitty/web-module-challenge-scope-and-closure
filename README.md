@@ -42,6 +42,9 @@ Find the file `index.js` and complete the tasks.
 Edit the `ReadMe` file with your answers.
 
 1. In your own words, define closure (1-2 sentences).
+
+closure is looking out a car with tinted windows you can see outside but ouside cant see in. a fuction  with "{}", a variable can reach out and return a value but a value outside that fuction cant be called to run inside because it is undefined (unseen) 
+
 2. Study the following code, then answer the questions below.
 
 ```js
@@ -63,8 +66,17 @@ dansRoll();
 ```
 
 a. Where is closure used in this code? How can you tell?
+
+return funtion(){} has its own block level scope
+fucntion personalDice(){} has a global scope 
+
 b. Compare and contrast calling `dansRoll` the first and second time. What is always the same? What could change?
+
+the name stays the same and the number of the roll changes 
+
 c. What is the lexical scope of `newRoll`? 
+ 
+ return funtion()
 
 ### Task 2c - Exit Ticket
 
